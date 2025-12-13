@@ -1,0 +1,306 @@
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, .home, div, p, h1, h2, h3, ul, li, figure, figcaption {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #F0F4F8;
+   font-weight: 300;
+}
+
+.home{
+    background-image:url('images/prezentare1.jpg');
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    margin-bottom: 25px;
+    background-position: center bottom;
+    background-repeat: no-repeat;
+}
+
+nav{
+    background-image: url('images/logo.png');
+    background-size: 350px;
+    background-repeat: no-repeat;
+    height: 130px;
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+}
+
+nav ul {
+    padding-top: 65px; 
+    padding-left: 0; 
+    padding-right: 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    display: inline-block;
+    color:rgb(215, 129, 0);
+    text-decoration: none;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: rgb(0, 13, 110);
+    border-radius: 8px;
+}
+
+nav ul li a{
+    color: rgb(215, 129, 0);
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color: rgb(232, 158, 48);
+}
+
+section{
+      box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+      background-color: rgb(255, 246, 232);
+      margin: 10px;
+      padding-bottom: 15px;
+}
+
+h2 {
+    text-align: center;
+    color:rgb(0, 13, 110);
+    padding-top: 25px;
+}
+
+h3 {
+    color:rgb(0, 13, 110);
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+}
+
+p {
+    line-height: 1.5;
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+li {
+    margin-bottom: 8px;
+    padding-left: 20px;
+}
+
+.depozit {
+    margin: 30px auto 10px auto;
+    padding: 0;
+    max-width: 900px;
+    text-align: center;
+    background-color: transparent;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.depozit img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+footer{
+    background-color:rgb(0, 13, 110) ;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+footer div h3{
+    color: white;
+    padding: 10px;
+}
+
+footer div ul li a{
+    color: white;
+}
+footer div ul li {
+    color: white;
+}
+.adrese{
+    text-align: center;
+}
+
+.titlu-servicii {
+    text-align: center;
+    font-weight: 600;
+    font-size: 36px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    color: rgb(0, 13, 110);
+    margin: 0 auto 25px;
+    width: fit-content;
+}
+
+.coloane-servicii {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.card-serviciu {
+    background-color: white;
+    text-align: center;
+    width: 300px;
+    font-size: 18px;
+    font-weight: 300;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    flex-shrink: 0;
+}
+
+.card-serviciu ul li:nth-child(even) {
+    background-color: rgba(47, 59, 64, 0.1);
+}
+
+.card-serviciu.featured {
+    background-color: rgb(0, 13, 110);
+    color: white;
+}
+
+.card-serviciu.featured h3 {
+    color: rgb(215, 129, 0);
+}
+
+.card-serviciu.featured a {
+    background-color: rgb(215, 129, 0);
+}
+
+.card-serviciu h3 {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px;
+    color: rgb(0, 13, 110);
+    margin-top: 0;
+}
+
+.card-serviciu ul {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+
+.card-serviciu ul li {
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 10px;
+    padding-left: 10px;
+}
+
+.card-serviciu a {
+    background-color:rgb(0, 13, 110);
+    padding: 10px 0;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 90%;
+    margin: 10px auto 20px auto;
+}
+
+
+.titlu-preturi {
+    text-align: center;
+    color: rgb(0, 13, 110);
+    padding-top: 25px;
+    margin-bottom: 25px;
+}
+
+.calculator-section {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(255, 246, 232);
+    margin: 10px auto;
+    padding-bottom: 30px;
+    max-width: 600px;
+}
+
+.calculator-box {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+}
+
+.calculator-box p {
+    padding-left: 0;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-grup {
+    margin-bottom: 15px;
+}
+
+.calculator-box label {
+    display: block;
+    font-weight: 600;
+    color: rgb(0, 13, 110);
+    margin-bottom: 5px;
+    padding-left: 0;
+}
+
+.calculator-box input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.calculator-box button {
+    background-color: rgb(215, 129, 0);
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: 700;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: background-color 0.3s;
+}
+
+.calculator-box button:hover {
+    background-color: rgb(232, 158, 48);
+}
+
+.rezultat-box {
+    margin-top: 25px;
+    padding-top: 15px;
+}
+
+.rezultat-box h3 {
+    text-align: center;
+    color: rgb(0, 13, 110);
+    font-size: 22px;
+    margin-top: 0;
+    padding-left: 0;
+    margin-bottom: 15px;
+}
+
+.rezultat-box p {
+    padding-left: 0;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pret-final {
+    margin-top: 10px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    font-weight: 700;
+    color: rgb(0, 13, 110);
+    border-top: 1px solid rgb(0, 13, 110);
+}
